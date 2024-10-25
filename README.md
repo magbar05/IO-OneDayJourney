@@ -10,6 +10,9 @@ ismertetve lesz az alaphelyzet, majd az 5 választási lehetőség közül
 habitusában) válasz egyet. Minden esemény után változik 2 változó: Riley
 kedve és kapcsolatai (Ez állítja össze a játékos végső pontszámát).
 
+![image](https://github.com/user-attachments/assets/c882734e-eb79-4c39-8a2e-8d78318e0bf8)
+
+
 # Funkciók
 
 -   Események megjelenítése: Egy kép, szöveg, ami leírja a helyzetet,
