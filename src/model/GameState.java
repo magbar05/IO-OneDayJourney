@@ -3,16 +3,14 @@ package model;
 import java.util.List;
 
 public class GameState {
-	private List<Event> events;
 	private int mood;
 	private int social;
 	private String playerName;
 	private List<Event> endings;
 	private int score;
 	
-	public GameState(List<Event> game, List<Event> ends, String name) {
+	public GameState(List<Event> ends, String name) {
 		playerName = name;
-		events = game;
 		mood = 50;
 		social = 50;
 		endings = ends;
@@ -35,6 +33,18 @@ public class GameState {
 	
 	public String toString() {
 		return ("Játékos neve: "+playerName+"\nPontszám: "+score);
+	}
+	
+	public List<Event> getEndings(){
+		return endings;
+	}
+	
+	public int getMood() {
+		return mood;
+	}
+	
+	public int getSocial() {
+		return social;
 	}
 	
 	public Event getEnding() {
@@ -60,12 +70,11 @@ public class GameState {
 		else if(mood>=66 && 33>social) {
 			return endings.get(6);
 		}
-		else if(mood>=66 && 33<=social && social>66) {
+		else if(mood>=66 && 33<=social && social<66) {
 			return endings.get(7);
 		}
-		else {
-			return endings.get(8);
-		}
+		return endings.get(8);
+		
 		
 	}
 	

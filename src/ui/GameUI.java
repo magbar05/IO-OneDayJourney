@@ -39,6 +39,7 @@ public class GameUI extends JFrame{
 		setResizable(true);
 		setVisible(true);
 		
+		
 		addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
@@ -132,7 +133,7 @@ public class GameUI extends JFrame{
 	        
 	        startButton.addActionListener(e -> {
 	            playerName = nameField.getText();
-	            gameState = new GameState(events, endings, playerName);
+	            gameState = new GameState(endings, playerName);
 	            nevle.dispose();
 	            loadNextEvent();
 	        });

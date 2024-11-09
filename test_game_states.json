@@ -1,0 +1,102 @@
+[
+  {
+    "mood": 50,
+    "social": 50,
+    "playerName": "Player1",
+    "endings": [
+      {
+        "name": "Event 1",
+        "description": "Description 1",
+        "options": [
+          "Option 1",
+          "Option 2"
+        ],
+        "moodImpact": [
+          5,
+          -3
+        ],
+        "socialImpact": [
+          2,
+          -1
+        ],
+        "ending": false,
+        "conse": [
+          "Consequence 1",
+          "Consequence 2"
+        ]
+      },
+      {
+        "name": "Event 2",
+        "description": "Description 2",
+        "options": [
+          "Option 3",
+          "Option 4"
+        ],
+        "moodImpact": [
+          -1,
+          4
+        ],
+        "socialImpact": [
+          3,
+          -2
+        ],
+        "ending": false,
+        "conse": [
+          "Consequence 3",
+          "Consequence 4"
+        ]
+      }
+    ],
+    "score": 0
+  },
+  {
+    "mood": 50,
+    "social": 50,
+    "playerName": "Player2",
+    "endings": [
+      {
+        "name": "Event 1",
+        "description": "Description 1",
+        "options": [
+          "Option 1",
+          "Option 2"
+        ],
+        "moodImpact": [
+          5,
+          -3
+        ],
+        "socialImpact": [
+          2,
+          -1
+        ],
+        "ending": false,
+        "conse": [
+          "Consequence 1",
+          "Consequence 2"
+        ]
+      },
+      {
+        "name": "Event 2",
+        "description": "Description 2",
+        "options": [
+          "Option 3",
+          "Option 4"
+        ],
+        "moodImpact": [
+          -1,
+          4
+        ],
+        "socialImpact": [
+          3,
+          -2
+        ],
+        "ending": false,
+        "conse": [
+          "Consequence 3",
+          "Consequence 4"
+        ]
+      }
+    ],
+    "score": 0
+  }
+]

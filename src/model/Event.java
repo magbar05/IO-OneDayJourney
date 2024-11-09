@@ -1,10 +1,6 @@
 package model;
-
-import java.util.ArrayList;
-
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 public class Event {
 	private String name;
@@ -36,6 +32,10 @@ public class Event {
 		moodImpact = null;
 		socialImpact = null;
 		ending = true;
+	}
+	
+	public List<String> getConse(){
+		return conse;
 	}
 	
 	public String getName() {
@@ -93,28 +93,8 @@ public class Event {
 		}
 	}
 	
-	@SuppressWarnings("resource")
-	public List<Integer> project(){
-		if(!ending) {
-			int bemenet;
-			List<Integer> impact = new ArrayList<>();
-			System.out.println(toString());
-			Scanner scanner = new Scanner(System.in);
-			bemenet = Integer.valueOf(scanner.nextLine());
-			System.out.println(conse.get(bemenet));
-			impact.add(moodImpact.get(bemenet));
-			impact.add(socialImpact.get(bemenet));
-			return impact;
-		}
-		else {
-			return null;
-		}
-	}
 
 	public List<String> getOptions() {
 		return options;
 	}
-	
-	
-	
 }
