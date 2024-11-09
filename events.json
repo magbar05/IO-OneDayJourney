@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Késés az iskolából",
+    "description": "Riley elaludt és sietnie kell, hogy elérje az iskolabuszt. Az édesanyja sürgeti, hogy siessen, de Riley teljesen szétszórtnak érzi magát.",
+    "options": [
+      "Jobb, ha otthon maradsz, úgysem fogsz már időben odaérni.",
+      "Ez szörnyű! Mindenki észreveszi, hogy elkéstél!",
+      "Ne aggódj, csak siess és lazán odaérsz!",
+      "Talán jobb lenne ma kihagyni az iskolát...",
+      "Miért nem ébresztettek fel időben? Ez igazságtalan!"
+    ],
+    "moodImpact": [
+      -10,
+      -20,
+      5,
+      -5,
+      5
+    ],
+    "socialImpact": [
+      -10,
+      -10,
+      -10,
+      -20,
+      -20
+    ],
+    "ending": false,
+    "conse": [
+      "Riley otthon marad, de emiatt kimaradnak dolgok a suliból",
+      "Riley feszülten érkezik meg az iskolába, ami rontja a kedvét.",
+      "Riley sietve indul el, és bár nyugodt marad, így is késik, amiért megrovást kap a tanárától.",
+      "Riley elbizonytalanodik, és emiatt lassabban indul el.",
+      "Riley dühösen indul el, és ez kihat a napjára is."
+    ]
+  },
+  {
+    "name": "Szóváltás egy osztálytárssal",
+    "description": "Az egyik osztálytársa véletlenül elrontja Riley projektjét, amit sok munkával készített el.",
+    "options": [
+      "Ez hihetetlen! Nem is érdemli meg, hogy foglalkozz vele.",
+      "Óvatosan, ha felhúzod, még rosszabb lesz a helyzet!",
+      "Próbálj vele kedvesen beszélni, talán segít helyrehozni.",
+      "Ez szomorú, de talán nincs értelme konfrontálódni.",
+      "Mondd meg neki, hogy javítsa ki!"
+    ],
+    "moodImpact": [
+      -10,
+      -5,
+      10,
+      10,
+      -7
+    ],
+    "socialImpact": [
+      -10,
+      10,
+      -10,
+      15,
+      -20
+    ],
+    "ending": false,
+    "conse": [
+      "Riley megsértődik, és eltávolodik az osztálytársától.",
+      "Riley csendben marad, de belül rosszul érzi magát.",
+      "Riley megértéssel fordul az osztálytársához, de a javítás tovább tart a vártnál, és lemarad más feladatokkal.",
+      "Riley visszahúzódik, és inkább nem foglalkozik a dologgal.",
+      "Riley kiakad, és bár megoldódik a helyzet, a kapcsolata romlik."
+    ]
+  },
+  {
+    "name": "Szereplés az iskolai bemutatón",
+    "description": "Riley-t felkérték, hogy mondjon beszédet az iskolai bemutatón, de fél a figyelemtől.",
+    "options": [
+      "Nem fontos, hagyd, más is helyettesíthet.",
+      "Ez rémisztő! Minden szem rád fog szegeződni!",
+      "Ez remek lehetőség, próbáld élvezni!",
+      "Ha ennyire ideges vagy, talán nem kellene erőltetni.",
+      "Ne engedd, hogy bármi visszatartson!"
+    ],
+    "moodImpact": [
+      -10,
+      -10,
+      10,
+      10,
+      20
+    ],
+    "socialImpact": [
+      5,
+      -5,
+      -10,
+      10,
+      10
+    ],
+    "ending": false,
+    "conse": [
+      "Riley kihagyja a lehetőséget, és kissé csalódott lesz.",
+      " Riley idegesen szerepel, és ez ront a hangulatán.",
+      " Riley pozitívan áll a dologhoz, de a figyelem miatt kisebb hibákat követ el. ",
+      "Riley visszakozik, és lemarad egy élményről.",
+      "Riley határozottan szerepel"
+    ]
+  },
+  {
+    "name": "Egy váratlan rossz jegy",
+    "description": "Riley keményen tanult egy dolgozatra, de meglepő módon rossz jegyet kapott.",
+    "options": [
+      "Ez az egész tantárgy nem számít, miért kellene aggódnod?",
+      "Ez borzasztó! Most mi lesz, ha emiatt elbukod az évet?",
+      "Ez csak egy jegy, próbáld legközelebb jobban!",
+      "Ez nagyon szomorú, de talán nem érdemes aggódni.",
+      "Beszélj a tanárral, kérdezd meg, miért kaptál ilyen rossz jegyet!"
+    ],
+    "moodImpact": [
+      10,
+      -10,
+      20,
+      10,
+      5
+    ],
+    "socialImpact": [
+      5,
+      0,
+      -10,
+      -5,
+      -10
+    ],
+    "ending": false,
+    "conse": [
+      "Riley figyelmen kívül hagyja a dolgot, de továbbra is zavarja.",
+      "Riley aggódik és stresszel a jövője miatt.",
+      "Riley lazán áll hozzá, de a jegy miatt kisebb nézeteltérésbe kerül egy barátjával.",
+      "Riley visszahúzódik és csalódott marad, de megérti hogy ez nem a világ vége",
+      "Riley konfrontálódik a tanárral, ami némi feszültséget okoz. "
+    ]
+  },
+  {
+    "name": "Otthon próbálja megmagyarázni a rossz jegyét",
+    "description": "Riley hazatérve elmeséli a szüleinek a rossz jegyét. Megpróbálja megmagyarázni, miért nem sikerült jól a dolgozat, de különböző érzések kerítik hatalmába, miközben figyeli szülei reakcióit.",
+    "options": [
+      "Ők úgysem fogják megérteni, inkább ne is kezdj bele.",
+      "Ez csak felzaklatja őket, nem biztos, hogy el kéne mondanod.",
+      "Nyíltan és őszintén beszélj velük, talán megértik majd.",
+      "Fogadd el, hogy csalódottak lesznek, és mondd meg, hogy sajnálod.",
+      "Mondd meg nekik, hogy ez az iskola miatt van, nem a te hibád!"
+    ],
+    "moodImpact": [
+      -5,
+      -10,
+      5,
+      10,
+      5
+    ],
+    "socialImpact": [
+      -10,
+      -5,
+      20,
+      15,
+      -20
+    ],
+    "ending": false,
+    "conse": [
+      "Riley nem mond el semmit, és bezárkózik a szobájába, a szülei pedig aggódnak miatta.",
+      "Riley habozik, és végül csak részben mondja el, így a szülei nem értik teljesen a helyzetet.",
+      "Riley őszintén elmagyarázza a dolgot, a szülei pedig végül megnyugtatják, és együtt keresnek megoldást.",
+      "Riley bocsánatot kér a szüleitől, akik megnyugtatják, hogy nem haragudnak rá.",
+      "Riley dühösen reagál, hibáztatva az iskolát, a szülei pedig nem örülnek ennek a hozzáállásnak."
+    ]
+  }
+]

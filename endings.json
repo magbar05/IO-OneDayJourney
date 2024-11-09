@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Egyedül az árnyékban",
+    "description": "Riley egy feszültségekkel teli nap után magányosan érzi magát, és elzárkózik a környezetétől. A nap végére megtanulja, hogy az elfojtott érzések csak nehezebbé teszik az életet, és hogy nyitott kommunikáció nélkül az emberek eltávolodnak tőle.",
+    "ending": true
+  },
+  {
+    "name": "Elhanyagolt Riley",
+    "description": "Bár Riley közeli kapcsolatai nem szenvedtek komoly károkat, ő maga mégis lehangoltnak érzi magát. A nap végére ráébred, hogy bár a támogatás fontos, a belső elégedettség és az önbizalom is elengedhetetlen.",
+    "ending": true
+  },
+  {
+    "name": "Bizonytalan szeretet",
+    "description": " Riley erős kapcsolatai segítik őt, de a saját boldogságát nem találja. A nap végén megérti, hogy az önmagával való megbékélés a kapcsolatai számára is kulcsfontosságú.",
+    "ending": true
+  },
+  {
+    "name": "Út a középúton",
+    "description": "Riley elfogadható hangulatban zárja a napot, de rájön, hogy érzelmileg elszigetelődött másoktól. A nap végén megtanulja, hogy a jó kedélyállapot önmagában nem elég; a kapcsolatok fenntartása is fontos.",
+    "ending": true
+  },
+  {
+    "name": "A felszínen nyugodt",
+    "description": "Riley kiegyensúlyozott hangulattal és kapcsolatokkal zárja a napot. Az események ráébresztik arra, hogy a harmónia nemcsak a nyugodt napok eredménye, hanem a megélt érzelmek és a kapcsolatokban való odaadás révén is kialakulhat.",
+    "ending": true
+  },
+  {
+    "name": "Egyensúly a fontos",
+    "description": " Riley harmonikus kapcsolatokat épített ki, és a napot elégedetten fejezi be. Rájön, hogy az érzelmi stabilitás és a szeretetteljes környezet összhangja biztos alapot nyújt a nehézségekhez.",
+    "ending": true
+  },
+  {
+    "name": "Magabiztos egyedül",
+    "description": "Riley önbizalommal zárja a napot, bár érzelmileg eltávolodott másoktól. Megérti, hogy a magabiztosság fontos, de a kapcsolatai nélkülözhetetlenek a valódi boldogsághoz.",
+    "ending": true
+  },
+  {
+    "name": "Önmagára támaszkodva",
+    "description": "Riley elégedett a napjával, de érzi, hogy kapcsolatai nem mindig állnak mellette. A tanulság az, hogy a saját boldogságán való munkálkodás mellett a kölcsönös törődés fenntartása is fontos.",
+    "ending": true
+  },
+  {
+    "name": "A nap hőse",
+    "description": "Riley pozitív és erős kapcsolatokat épít, tele van energiával és optimizmussal. A nap végén büszke önmagára, és érzi, hogy a szeretet és az önbizalom a legjobb út a boldogsághoz.",
+    "ending": true
+  }
+]
